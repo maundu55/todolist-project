@@ -2,22 +2,21 @@ body{
     font-family: Arial, sans-serif;
     
 }
-/* .container{ */
-   /* display: flex;
-   justify-content: center;
-   flex-direction: column;
-   align-items: center;
-} */
+
 h2{
     font-size: 2.3rem;
     font-weight: bold;
 }
 .text-input{
-    font-size: 1.6rem;
-    border: 2ps solid rgb(197, 193, 193);
+    font-size: 1.5rem;
+    border: 2px solid rgb(197, 193, 193);
     border-radius: 5px;
     color: rgb(175, 173, 173); 
 }
+.text-input text{
+    color: gray;
+}
+
 .input-el{
     margin-bottom: 30px;
 }
@@ -34,21 +33,24 @@ button{
 .add-btn:hover{
     background-color: rgb(73, 168, 64);
 }
+ul{
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+ 
+}
+li{ 
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 14px; 
+}
+
 .delete-btn{
+    font-size: 1.4rem;
     background-color: rgb(185, 33, 33);
+   
 }
 .delete-btn:hover{
     background-color: rgb(228, 68, 68);
 }
-ul{
-    margin: 0;
-    padding: 0;
-}
-span{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;     
-}
-span:not(:last-child){
-    margin-bottom: 20px;
-}
+
